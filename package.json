@@ -1,0 +1,22 @@
+{
+  "name": "mdm-device-financing-dashboard",
+  "version": "1.0.0",
+  "description": "Enterprise Mobile Device Management (MDM) & Android Device Financing Control System",
+  "scripts": {
+    "dev:server": "cd server && node index.js",
+    "dev:client": "cd client && npm run dev",
+    "start": "npm run dev:server",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "mdm",
+    "android",
+    "device-financing",
+    "kiosk-lock",
+    "firebase-admin",
+    "fcm",
+    "realtime-database"
+  ],
+  "author": "ApexMDM Systems",
+  "license": "ISC"
+}
